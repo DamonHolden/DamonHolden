@@ -2,11 +2,12 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './frontend/src/index.js',
+  context: path.resolve(__dirname, 'frontend/public'),
+  entry: '../src/index.js',
   mode: 'development',
   output: {
     filename: 'bundle.js',
-    path: path.resolve('dist'),
+    path: path.resolve('./dist'),
     publicPath: '/',
   },
   module: {
@@ -17,5 +18,12 @@ module.exports = {
         use: 'babel-loader',
       },
     ],
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'frontend/public'),
+    },
+    compress: true,
+    port: 3333,
   },
 };

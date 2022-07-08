@@ -1,2 +1,4 @@
-### files to ignore in git commits
-node_modules/
+# files to ignore in git commits
+node_modules
+dist
+
