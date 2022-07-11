@@ -23,6 +23,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'frontend/public'),
     },
+    historyApiFallback: true,
     compress: true,
     port: 3333,
   },
