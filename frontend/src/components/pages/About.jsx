@@ -8,7 +8,7 @@ export default function About() {
       <section>
         <h2>React</h2>
         <div className='picture-text'>
-          <img src='logo.svg' alt='React Logo' width='100px' />
+          <img src='assets/images/logo.svg' alt='React Logo' width='100px' />
           <div>
             <p>
               The frontend for this web application was built from scratch using
@@ -20,7 +20,11 @@ export default function About() {
       <section>
         <h2>React Router</h2>
         <div className='picture-text'>
-          <img src='react-router.svg' alt='React Logo' width='50px' />
+          <img
+            src='assets/images/react-router.svg'
+            alt='React Logo'
+            width='50px'
+          />
           <div>
             Client side routing was achieved using the React Router package.
           </div>
@@ -29,14 +33,14 @@ export default function About() {
       <section>
         <h2>Webpack</h2>
         <div className='picture-text'>
-          <img src='webpack.svg' alt='React Logo' width='50px' />
+          <img src='assets/images/webpack.svg' alt='React Logo' width='50px' />
           <div>React code for this project was bundled using Webpack.</div>
         </div>
       </section>
       <section>
         <h2>Babel</h2>
         <div className='picture-text'>
-          <img src='babel.svg' alt='React Logo' width='100px' />
+          <img src='assets/images/babel.svg' alt='React Logo' width='100px' />
           <div>
             Javascript compiling was performed on code for this project using
             Babel.
@@ -46,7 +50,7 @@ export default function About() {
       <section>
         <h2>Express</h2>
         <div className='picture-text'>
-          <img src='express.png' alt='React Logo' width='100px' />
+          <img src='assets/images/express.png' alt='React Logo' width='100px' />
           <div>
             This project is served using Express.js as the backend framework.
           </div>
@@ -55,7 +59,11 @@ export default function About() {
       <section>
         <h2>Nodemon</h2>
         <div className='picture-text'>
-          <img src='nodemon.png' alt='Nodemon Logo' width='50px' />
+          <img
+            src='assets/images/nodemon.png'
+            alt='Nodemon Logo'
+            width='50px'
+          />
           <div>
             This project is served using Express.js as the backend framework.
           </div>
